@@ -1,0 +1,117 @@
+h1{
+text-align: center;
+color: rgb(226, 86, 86);
+font-size: 50px;
+border-width: 5px;
+border-style: dashed;
+padding: 40px;
+font-style: italic;
+clear: both;
+}
+
+blockquote{
+
+    text-align: left ;
+    font-style: italic;
+    color :rgb(141, 71, 71);
+    font-size: 30px;
+    font-weight: initial;
+    background-color: rgb(212, 193, 193);
+    margin-right: 500px;
+    border-left: solid rgb(189, 50, 50);
+    padding-left: 30px
+}
+
+/*ajout de la class malchance pour ajustement block*/
+
+.malchance {
+
+    margin-top: 306px
+}
+/*ajout de la class malchance pour ajustement block*/
+
+body{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 95px;
+    width: 80%;
+    background-image:  url(https://image.freepik.com/vecteurs-libre/fleurs-sakura-rose-pale-fleurs_88211-11.jpg),       
+                       linear-gradient(#e66465, #9198e5);
+                      
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+
+    
+    }
+
+    /*mot bien en vert*/
+    .bien{
+        color: green;
+
+    }
+    /*mot mal en rouge*/
+    .mal{
+        color: red;
+
+    }
+/*image differente devant chaque ligne de la liste*/ 
+
+li{
+
+    list-style-type: none;
+    padding-inline-start:50px;
+    margin-top: 10px;
+    
+}
+
+#up{
+
+    background: url("../image/bien.png");
+    background-repeat: no-repeat;
+    background-size: 32px;
+
+}
+
+#down{
+
+    background: url("../image/mal.png");
+    background-repeat: no-repeat;
+    background-size: 32px;
+    
+}
+
+#up{
+
+    background: url("../image/bien.png");
+    background-repeat: no-repeat;
+    background-size: 32px;
+    
+}
+
+#cat{
+
+    background: url("../image/chat.png");
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+img{
+ 
+    width: 500px;
+    height: 500px;
+    float: left;
+    border-radius: 100%;
+    shape-outside: circle();
+
+}
+figure{
+
+    margin:100px;
+}
