@@ -109,9 +109,17 @@ img{
     float: left;
     border-radius: 100%;
     shape-outside: circle();
+    filter: drop-shadow(0 0 2.75rem crimson);
 
 }
 figure{
 
     margin:100px;
+}
+footer{
+    border-top: solid rgb(189, 50, 50);
+    margin: 80px;
+    padding: 20px
+
+
 }
